@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Links({ subsets: ['latin'] })
 
-export default function Links() {
+export function Links() {
   return (
     <div>
       <div className={styles.description}>

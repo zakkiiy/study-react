@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Headline({ subsets: ['latin'] })
 
-export default function Headline(props) {
+export function Headline(props) {
   console.log(props)
   return (
     <div>
