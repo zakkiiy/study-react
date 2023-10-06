@@ -5,7 +5,7 @@ const inter = Links({ subsets: ['latin'] })
 
 export default function Links() {
   return (
-    <>
+    <div>
       <div className={styles.description}>
         <div>
           <a
@@ -95,6 +95,6 @@ export default function Links() {
           </p>
         </a>
       </div>
-    </>
+    </div>
   )
 }
