@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import classes from './Links.module.css'
 
 const inter = Links({ subsets: ['latin'] })
 
 export function Links() {
   return (
     <div>
-      <div className={styles.description}>
+      <div className={classes.description}>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -17,7 +17,7 @@ export function Links() {
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className={classes.vercelLogo}
               width={100}
               height={24}
               priority
@@ -26,9 +26,9 @@ export function Links() {
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div className={classes.center}>
         <Image
-          className={styles.logo}
+          className={classes.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
@@ -37,10 +37,10 @@ export function Links() {
         />
       </div>
 
-      <div className={styles.grid}>
+      <div className={classes.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={classes.card}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -54,7 +54,7 @@ export function Links() {
 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={classes.card}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -68,7 +68,7 @@ export function Links() {
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={classes.card}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -82,7 +82,7 @@ export function Links() {
 
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={classes.card}
           target="_blank"
           rel="noopener noreferrer"
         >
