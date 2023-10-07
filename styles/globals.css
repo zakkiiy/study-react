@@ -74,7 +74,8 @@
 }
 
 * {
-  box-sizing: border-box;
+  /* なぜかalertが発火されない */
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
 }
